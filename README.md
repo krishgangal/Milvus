@@ -9,4 +9,6 @@ Docker will build four containers; the krishgnagal_script container will run the
 
 These are the rows of the sheet that contain duplicate listings.
 
-Note: I only used the first 100 lines of jobpostings.csv as my computing power is limited.
+Notes: 
+I only used the first 100 lines of jobpostings.csv as my computing power is limited.
+Only tested on Mac.
