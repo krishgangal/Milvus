@@ -53,15 +53,15 @@ services:
       - "etcd"
       - "minio"
 
-  krishgangal_script:
+  runner:
     build:
       context: .
       dockerfile: ./Dockerfile
     networks:
       - milvus_network
-    container_name: krishgangal_script
+    container_name: runner
     volumes:
-      - ${DOCKER_VOLUME_DIRECTORY:-.}/volumes/krishgangal_script:/app # Assuming your app is mounted here
+      - ${DOCKER_VOLUME_DIRECTORY:-.}/volumes/runner:/app # Assuming your app is mounted here
 
 networks:
   milvus_network:
