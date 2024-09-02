@@ -5,7 +5,7 @@ Download jobpostings.csv and add all files to one folder.
 
 In command line, navigate to that folder and run "docker compose up --build" 
 
-Docker will build four containers; the krishgangal_script container will run the python script and the output will be in the container's logs. 
+Docker will build four containers; the runner container will run the python script and the output will be in the container's logs. 
 
 These are the rows of the sheet that contain duplicate listings.
 
